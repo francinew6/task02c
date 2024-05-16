@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task02c Francine Wei Personal Website</title>
+    <!-- Bulma Version 0.9.4-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/icons8-fog.gif">
+  </head>
+
+  <body>
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-fixed-top is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="aboutme.html">
+                  About Me
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="interests.html">
+                  Interests
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="classes.html">
+                  Classes
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p>Date Updated: 10/15/2023</p>
+            <h2 class="subtitle">Hey there, I'm</h2>
+            <h2 class="title">Francine Wei</h2>
+            <h2 class="subtitle profession">INLS 161 Task02c</h2>
+          </div>
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered is-fixed-top">
+                <ul>
+                  <li class="is-active">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="aboutme.html">About Me</a>
+                  </li>
+                  <li>
+                    <a href="interests.html">Interests</a>
+                  </li>
+                  <li>
+                    <a href="classes.html">Classes</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">This Website is Made Possible By:</h1>
+          </div>
+              <p class="is-larger has-text-centered">
+                <strong>Bulma CSS template and skills, Herotofu form integration, and JavaScript skills taught by Google CSSI.</strong>
+              </p>
+              <br>
+        </div>
+      </div>
+      <!-- End About Me Content -->
+      <!-- Begin Contact Content -->
+      <div class="section-dark contact" id="contact">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                Get in touch
+              </h1>
+              <p> The fun thing about this is that you can't find my email on the page but your submission will 
+                go directly into my email! This form is thanks to Herotofu integration! Fill it out if you need to reach me!</p>
+            </div>
+            <div class="column is-8 is-offset-2">
+              <form action="https://public.herotofu.com/v1/f6809570-6bc7-11ee-a03a-39e472c5760d" method="post" accept-charset="UTF-8">
+                <div class="field">
+                  <label for="name" class="label">Name</label>
+                  <div class="control">
+                    <input name="Name" id="name" class="input" type="text" placeholder="Your Name" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="email" class="label">Email</label>
+                  <div class="control has-icons-left has-icons-right">
+                    <input name="Email" id="email" class="input" type="email" placeholder="Email Address" required>
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="message" class="label">Message</label>
+                  <div class="control">
+                    <textarea name="Message" id="message" class="textarea" placeholder="Type your message here..." required=""></textarea>
+                  </div>
+                </div>
+                <div>
+                  <input type="submit" value="Submit">
+                  <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+                    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Content -->
+      <div class="section-light my-work" id="my-work">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">Gallery of my favorite pictures:</h1>
+            </div>
+            <div class="column is-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img
+                            src="images/uncmap.jpg"
+                            alt="3d printed UNC Map">
+                        </figure>
+                      </div>
+                    </div>
+            </div>
+            <div class="column is-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img
+                            src="images/lake.JPG"
+                            alt="sunset at the lake"
+                          >
+                        </figure>
+                      </div>
+                    </div>
+            </div>
+            <div class="column is-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img
+                            src="images/bird.jpg"
+                            alt="bird"
+                          >
+                        </figure>
+                      </div>
+                    </div>
+            </div>
+            <div class="column is-3">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img
+                            src="images/cruise.JPG"
+                            alt="sunset on the cruise"
+                          >
+                        </figure>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p>
+        <strong class="white">Francine Wei's INLS 161 Task02c Website</strong> made possible by <a href="https://bulma.io/">Bulma CSS</a>
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
